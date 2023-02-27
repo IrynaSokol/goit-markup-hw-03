@@ -11,15 +11,10 @@
  
 }
 
-h1,h2,h3,p {
-    margin-top: 0;
-    margin-left: 0;
-}
-
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+h1,h2,h3,p, ul,ol {
+    margin: 0;
+    padding: 0;
+   
 }
 
 img {
@@ -29,9 +24,6 @@ img {
 .list {
     list-style: none;
 }
-
-
-
 
 .container {
     width: 1158px;
@@ -48,7 +40,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--footer-logo-color);
 }
 
 .main-navigation{
@@ -163,19 +154,22 @@ color: var(--accent-color);
     display: flex;
     padding-top: 188px;
     padding-bottom: 188px;
-    padding-left: 470px;
-    padding-right: 470px;
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
+    text-align: ce;
+
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-white-color);
+    width: 507px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
 }
 
 
@@ -211,7 +205,8 @@ color: var(--accent-color);
 
 .portfolio-section{
     padding-bottom: 120px;
-    margin-top: 96px;
+    padding-top: 96px;
+    border: 1px solid var(--footer-logo-color);
 }
 
 .menu-navigation{
@@ -241,7 +236,9 @@ flex-basis: calc(100%-48px)/3;
 
 .menu-portfolio-item-wrapper{
     padding-top: 32px;
+    padding-bottom: 32px;
     padding-left: 16px;
+    padding-right: 16px;
     border: 1px solid var(--footer-logo-color);
     border-top: none;
 }
